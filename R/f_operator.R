@@ -12,7 +12,7 @@ f_operator = function(f){
       f(x)
     }
     else{
-      cnd = rlang::catch_cnd(rlang::abort(message = "invalid input", .subclass ="invalid input", invalid_input=x))
+      rlang::catch_cnd(rlang::abort(message = "invalid input", .subclass ="invalid input", invalid_input=x))
     }
   }
   return(out.fun)
