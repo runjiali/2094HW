@@ -1,0 +1,17 @@
+Package: CondHand
+Title: Condition handling and function operator
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Runjia",
+           family = "Li",
+           role = c("aut", "cre"),
+           email = "rul48@pitt.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Include function operator that transform functions into functions such that: 1. If input is greater than 0, then return normal output. 2. If input is invalid, return an error condition object, with "invalid_input" subclass and invalid value attached. .
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    rlang
